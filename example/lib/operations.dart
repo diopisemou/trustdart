@@ -100,11 +100,17 @@ Map<String, dynamic> operations = {
     'blockHash': '244ZQ9cgj3CQ6bWBdytfrJMuMQ1jdXLFGnr4HhvtCTnM', //
   },
   'TERRA': {
-    'signerID': 'terra1tw3n7ksphms0tcxa244d5psrk79zg0vw6msssn', // (account ID of the transaction originator)
-    'receiverID': 'terra169kufqsmax6suq36zn0gyxtgxla5efs6qmc235', // (account ID of the transaction recipient)
+    'ownerAddress': 'terra1tw3n7ksphms0tcxa244d5psrk79zg0vw6msssn', // (account ID of the transaction originator)
+    'toAddress': 'terra169kufqsmax6suq36zn0gyxtgxla5efs6qmc235', // (account ID of the transaction recipient)
     'nonce': 1, // (increments for every new tx)
     'amount': '01000000000000000000000000000000', // // uint128_t / little endian byte order
     'blockHash': '244ZQ9cgj3CQ6bWBdytfrJMuMQ1jdXLFGnr4HhvtCTnM', //
+    'feeLimit': 20000, //
+    'accountNumber': 158, //
+    'chainId': "soju-0013", //
+    'memo': "", //
+    'sequence': 0, //
+    'cosmosFee': 200000, //
   },
 };
 
